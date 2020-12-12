@@ -1,0 +1,104 @@
+.dd-wrapper {
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+}
+
+.dd-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border: 1px solid rgb(223, 223, 223);
+  background-color: white;
+  line-height: 38px;
+  cursor: default;
+  cursor: pointer;
+}
+
+.dd-header span {
+  margin-right: 20px;
+}
+
+.dd-header-title {
+  margin: 2px 20px;
+  margin-right: 30px;
+  font-weight: 300;
+}
+
+.angle-down {
+  margin-right: 20px;
+  color: black;
+}
+
+.dd-list {
+  position: absolute;
+  overflow: scroll;
+  z-index: 10;
+  width: 100%;
+  max-height: 215px;
+  border: 1px solid rgb(223, 223, 223);
+  border-top: none;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0 2px 5px -1px rgb(232, 232, 232);
+  background-color: white;
+  font-weight: 700;
+  text-align: left;
+  -webkit-overflow-scrolling: touch;
+}
+
+.dd-list-item {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: default;
+  cursor: pointer;
+}
+
+.dd-list-item:hover {
+  background-color: #0073aa;
+  color: white;
+}
+
+
+.dd-wrapper button {
+  overflow: visible;
+  width: inherit;
+  margin: inherit;
+  padding: inherit;
+  border: none;
+  background: inherit;
+  font: inherit;
+  line-height: normal;
+  color: inherit;
+  text-align: inherit;
+}
+
+.dd-wrapper ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dd-wrapper p {
+  margin: 0;
+  padding: 0;
+}
+
+.dd-wrapper * {
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.disabled {
+  color: #757171;
+  background-color: #e0d9d9;
+}

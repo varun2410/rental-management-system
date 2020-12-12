@@ -1,0 +1,17 @@
+.header {
+	background-color: #000;
+	height: 50px;
+}
+
+.brand {
+	color: #ffffff;
+	display: flex;
+	justify-content: flex-start;
+	padding: 16px;
+	width: 50%;
+}
+
+.brand > a {
+  color: #ffffff;
+  text-decoration: none;
+}
