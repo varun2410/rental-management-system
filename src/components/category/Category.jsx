@@ -34,7 +34,6 @@ class Category extends React.Component {
   }
 
   onCategorySelect = (category) => {
-    console.log(this.props);
     this.props.history.push('/sub-category', {
       ...this.props.history.location.state,
       selectedCategory: category.name,

@@ -45,7 +45,6 @@ class SubCategory extends React.Component {
   render() {
     const allSubCategories = getAllSubCategories(this.props.data, this.props.history.location.state);
     const totalEmptySpacesToRender = new Array(ELEMENT_PER_LINE - (allSubCategories.length % ELEMENT_PER_LINE)).fill(Math.random());
-    console.log(totalEmptySpacesToRender);
     return (
       <div>
         <div className="sub-category-heading">

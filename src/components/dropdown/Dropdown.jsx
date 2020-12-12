@@ -36,12 +36,6 @@ class Dropdown extends React.Component {
     });
   }
 
-  handleClickOutside = (event) => {
-    this.setState({
-      isOpen: false,
-    });
-  }
-
   toggleList = () => {
     if (this.props.disabled) return;
 

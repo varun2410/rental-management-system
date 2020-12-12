@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <Header />
+          <Header data={data.data} />
           <Switch>
             <Route exact path="/">
               <HomePage data={data.data} />
