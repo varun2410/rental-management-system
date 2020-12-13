@@ -1,5 +1,5 @@
 # About the Project
-This a rental management system. It is currently hosted in - https://varun-rms.herokuapp.com/category
+This is a rental management system. It is currently hosted in - https://varun-rms.herokuapp.com/category
 
 # Getting Started with Create React App
 
