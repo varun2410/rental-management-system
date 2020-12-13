@@ -22,7 +22,7 @@ class Header extends React.Component {
         id: selectedLocation.dealers_id,
       },
       selectedBranch: {
-        id: selectedBranch.dealers_id,
+        id: selectedBranch.branch_id,
       },
     });
   }
